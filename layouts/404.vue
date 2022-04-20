@@ -8,11 +8,7 @@ const router = useRouter()
       <div i-carbon-warning inline-block />
     </div>
     <slot />
-    <div>
-      <button btn text-sm m="3 t8" @click="router.back()">
-        Back
-      </button>
-    </div>
+    <HomeButton />
     <Footer />
   </main>
 </template>
