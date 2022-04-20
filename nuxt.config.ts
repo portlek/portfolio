@@ -43,7 +43,7 @@ export default defineNuxtConfig({
       ],
     ],
     presets: [
-      presetWind(),
+      presetWind,
     ],
   },
   css: [
