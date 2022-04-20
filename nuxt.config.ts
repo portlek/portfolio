@@ -1,6 +1,6 @@
 import {
   defineNuxtConfig,
-} from 'nuxt3'
+} from 'nuxt'
 
 export default defineNuxtConfig({
   meta: {
