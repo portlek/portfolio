@@ -8,6 +8,7 @@ specifiers:
   '@nuxtjs/color-mode': 3.0.2
   '@pinia/nuxt': 0.1.8
   '@unocss/nuxt': 0.31.6
+  '@unocss/preset-wind': 0.31.8
   '@vueuse/nuxt': 8.2.6
   eslint: 8.13.0
   nuxt: ^3.0.0-rc.0
@@ -28,6 +29,7 @@ devDependencies:
   '@nuxtjs/color-mode': 3.0.2_vite@2.9.5+webpack@5.72.0
   '@pinia/nuxt': 0.1.8_pinia@2.0.13+vue@3.2.33
   '@unocss/nuxt': 0.31.6_vite@2.9.5+webpack@5.72.0
+  '@unocss/preset-wind': 0.31.8
   '@vueuse/nuxt': 8.2.6_83298cc9d1ace117312ca78455de4e89
   eslint: 8.13.0
   nuxt: 3.0.0-rc.0_vite@2.9.5+webpack@5.72.0
@@ -1140,6 +1142,10 @@ packages:
     resolution: {integrity: sha512-u8V9qiOPw8KALsUwDAWOhIzAtQI40b9fno8EofIEYisDjH/6ty8qrpQ0B0YzrcybMa4fEt6xW/4b53HTB8t02w==}
     dev: true
 
+  /@unocss/core/0.31.8:
+    resolution: {integrity: sha512-UkTEf1upTf3s5U1RwQfk183Ymw4pIuatUEJyPgojnc4FYcApGDXsS22QHmWjTVFPVA/cwM4fgsowcRrJM5IZOw==}
+    dev: true
+
   /@unocss/inspector/0.31.6:
     resolution: {integrity: sha512-+X4PjxZL21t/s3KG9GvEdkpvx5Zw3UrWfniyT4FLdkABcjni1ZqIMtEbSYcFAkb5y9S7Nwobqhp8ehUUYA1HuQ==}
     dependencies:
@@ -1192,6 +1198,12 @@ packages:
       '@unocss/core': 0.31.6
     dev: true
 
+  /@unocss/preset-mini/0.31.8:
+    resolution: {integrity: sha512-gGP73WKfXJi7YZ1rILncfCug9CEx+0h8pDSGIJawyJp4/e02NQBbdlDI4nCLbb1jKO7s7ZRj/S9WvxUHUJ5yVQ==}
+    dependencies:
+      '@unocss/core': 0.31.8
+    dev: true
+
   /@unocss/preset-typography/0.31.6:
     resolution: {integrity: sha512-YxLpSvccWTXazn2aKSPKy4GX80qoQd1xfOg2iCRPjtJmKjhJWiygAoNgEIizYJGvnaVA4UnaQAFot7mk5/j3gw==}
     dependencies:
@@ -1220,6 +1232,13 @@ packages:
     dependencies:
       '@unocss/core': 0.31.6
       '@unocss/preset-mini': 0.31.6
+    dev: true
+
+  /@unocss/preset-wind/0.31.8:
+    resolution: {integrity: sha512-PGTXYouQ4EFRbtVqRIY5b1hLU0dF9isTAJ28trP4asev/YPC+1Pltzxn1TguGJUzketjzADHHNVXYxcN+Z8pPQ==}
+    dependencies:
+      '@unocss/core': 0.31.8
+      '@unocss/preset-mini': 0.31.8
     dev: true
 
   /@unocss/reset/0.31.6:
