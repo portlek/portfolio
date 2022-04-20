@@ -3,7 +3,6 @@
     <div text-4xl>
       <div i-carbon-warning inline-block />
     </div>
-    <slot />
     <HomeButton />
     <span>Not Found</span>
   </main>

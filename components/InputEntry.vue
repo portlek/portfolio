@@ -31,7 +31,7 @@ const go = () => {
         :disabled="!name"
         @click="go"
       >
-        GO
+        {{ $t('go') }}
       </button>
     </div>
   </div>

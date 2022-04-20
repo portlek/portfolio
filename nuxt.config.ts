@@ -1,27 +1,14 @@
+import path from 'path'
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
-  meta: {
-    title: 'Vitesse Nuxt 3',
-    link: [
-      {
-        rel: 'icon', type: 'image/png', href: '/nuxt.png',
-      },
-    ],
-  },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
+    '@nuxtjs/i18n',
   ],
-  autoImports: {
-    dirs: [
-      'composables',
-      'store',
-      'layouts',
-    ],
-  },
   experimental: {
     reactivityTransform: true,
   },
@@ -44,5 +31,14 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
+  },
+  i18n: {
+    locales: [
+     {
+       code: 'en', iso: 'en-US', file: 'en.yaml',
+     }, 
+    ],
+    defaultLocale: 'en',
+    langDir: '~/locales/',
   },
 })
