@@ -25,6 +25,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-
 
-      - run: |
-          pnpm i
-          pnpm build
+      - run: pnpm i & pnpm build
