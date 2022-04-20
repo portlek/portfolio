@@ -20,7 +20,7 @@
     "@unocss/preset-wind": "0.31.8",
     "@vueuse/nuxt": "8.2.6",
     "eslint": "8.13.0",
-    "nuxt": "^3.0.0-rc.0",
+    "nuxt": "3.0.0-rc.0",
     "typescript": "4.6.3",
     "vite": "2.9.5",
     "vue": "3.2.33",
