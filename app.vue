@@ -1,3 +1,14 @@
+<script setup lang="ts">
+useHead({
+  title: 'Vitesse Nuxt 3',
+  link: [
+    {
+      rel: 'icon', type: 'image/png', href: '/nuxt.png',
+    },
+  ],
+})
+</script>
+
 <template>
   <NuxtLayout>
     <NuxtPage />
@@ -5,5 +16,16 @@
 </template>
 
 <style>
-@import '~/styles/main.css';
+html,
+body,
+#app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: #222;
+  color: white;
+}
 </style>
