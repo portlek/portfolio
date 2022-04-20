@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
-    '@nuxtjs/i18n',
   ],
   experimental: {
     reactivityTransform: true,
@@ -30,14 +29,5 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
-  },
-  i18n: {
-    locales: [
-     {
-       code: 'en', iso: 'en-US', file: 'en.yaml',
-     }, 
-    ],
-    defaultLocale: 'en',
-    langDir: '~/locales/',
   },
 })
