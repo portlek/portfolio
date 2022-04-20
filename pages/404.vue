@@ -5,8 +5,6 @@
     </div>
     <slot />
     <HomeButton />
-    <div>
-      Not Found
-    </div>
+    <span>Not Found</span>
   </main>
 </template>
