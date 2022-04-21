@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
-    'bootstrap-vue/nuxt',
   ],
   experimental: {
     reactivityTransform: true,
@@ -31,9 +30,5 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
-  },
-  bootstrapVue: {
-    bootstrapCSS: false,
-    bootstrapVueCSS: false,
   },
 })
