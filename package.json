@@ -18,6 +18,7 @@
     "@pinia/nuxt": "0.1.8",
     "@unocss/nuxt": "0.31.12",
     "@vueuse/nuxt": "8.3.0",
+    "bootstrap-vue": "^2.22.0",
     "eslint": "8.13.0",
     "nuxt": "3.0.0-rc.1",
     "sass": "1.50.1",

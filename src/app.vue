@@ -16,15 +16,28 @@ useHead({
 </template>
 
 <style lang="scss">
-html,
-body,
-#app {
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+.case {
   height: 100vh;
   margin: 0;
   padding: 0;
 }
 
+html,
+body,
+#app {
+  @extend .case
+}
+
 html.dark {
-  background: #222;
+  background-color: #222;
+  color: white;
+  body,
+  #app {
+    background-color: #222;
+    color: white;
+  }
 }
 </style>

@@ -1,4 +1,3 @@
 <template>
-  <ContactMe />
   <DarkToggle />
 </template>
