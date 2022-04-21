@@ -105,6 +105,11 @@ const options = reactive<OptionsState>({
           </button>
         </div>
       </div>
+      <button
+        class="primary"
+      >
+        Find names
+      </button>
     </div>
   </div>
 </template>
@@ -162,6 +167,14 @@ h1 {
 
 .option-active {
   background-color: rgb(249, 87, 89);
-  color: white;
+}
+
+.primary {
+  background-color: rgb(249, 87, 89);
+  border-radius: 6.5rem;
+  border: none;
+  padding: 0.75rem 4rem;
+  margin-top: 1rem;
+  cursor: pointer;
 }
 </style>
