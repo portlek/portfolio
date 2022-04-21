@@ -12,7 +12,7 @@
 
 <style scoped lang="scss">
 .container {
-  text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
+  position: relative;
 }
 </style>
