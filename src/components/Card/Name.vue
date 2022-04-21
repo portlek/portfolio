@@ -1,24 +1,23 @@
 <script setup lang="ts">
 interface NameProps {
   name: string
-  index: number
 }
 
 const props = defineProps<NameProps>()
 
 const emit = defineEmits([
-  "remove",
+  'remove',
 ])
 
-const removeName = () => {
-  emit("remove", props.index)
+function remove() {
+  emit('remove')
 }
 </script>
 
 <template>
   <div class="card">
     <h4>{{ name }}</h4>
-    <p @click="removeName">
+    <p @click="remove">
       x
     </p>
   </div>

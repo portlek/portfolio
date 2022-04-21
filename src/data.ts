@@ -15,12 +15,6 @@ export enum Length {
   ALL = 'All',
 }
 
-export interface OptionsState {
-  gender: Gender
-  popularity: Popularity
-  length: Length
-}
-
 export interface Name {
   id: number
   name: string
@@ -29,28 +23,43 @@ export interface Name {
   length: Length
 }
 
-export const optionsArray = [
+export type Answer = Gender | Popularity | Length
+export type Answers = Gender[] | Popularity[] | Length[]
+
+export interface AnswersState {
+  gender: Gender
+  popularity: Popularity
+  length: Length
+}
+
+export interface Question {
+  title: string
+  category: string
+  answers: Answers
+}
+
+export const questions: Question[] = [
   {
-    title: "1) Choose a gender",
-    category: "gender",
-    buttons: [
+    title: '1) Choose a gender',
+    category: 'gender',
+    answers: [
       Gender.MALE,
       Gender.UNISEX,
       Gender.FEMALE,
     ],
   },
   {
-    title: "1) Choose the name's popularity",
-    category: "popularity",
-    buttons: [
+    title: '1) Choose the name\'s popularity',
+    category: 'popularity',
+    answers: [
       Popularity.TRENDY,
       Popularity.UNIQUE,
     ],
   },
   {
-    title: "1) Choose the name's length",
-    category: "length",
-    buttons: [
+    title: '1) Choose the name\'s length',
+    category: 'length',
+    answers: [
       Length.SHORT,
       Length.LONG,
       Length.ALL,

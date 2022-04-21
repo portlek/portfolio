@@ -4,13 +4,16 @@ import {
   Length,
   Popularity,
   names,
-  optionsArray,
+  AnswersState,
+  questions,
+  Question,
+  Answer,
 } from '@/data'
 
 const selectedNames = ref<string[]>([
 ])
 
-const options = reactive<OptionsState>({
+const answers = reactive<AnswersState>({
   gender: Gender.UNISEX,
   popularity: Popularity.TRENDY,
   length: Length.LONG,
@@ -18,10 +21,14 @@ const options = reactive<OptionsState>({
 
 function computeSelectedNames() {
   selectedNames.value = names
-    .filter(s => s.gender === options.gender)
-    .filter(s => s.popularity === options.popularity)
-    .filter(s => options.length === Length.ALL || s.length === options.length)
+    .filter(s => s.gender === answers.gender)
+    .filter(s => s.popularity === answers.popularity)
+    .filter(s => answers.length === Length.ALL || s.length === answers.length)
     .map(s => s.name)
+}
+
+function select(question: Question, answer: Answer) {
+  answers[question.category] = answer
 }
 
 function removeName(index: number) {
@@ -35,12 +42,13 @@ function removeName(index: number) {
   <div class="container">
     <h1>Name Generator</h1>
     <p>Choose your options and click the "Find Names" buttom below</p>
-    <div class="options-container">
+    <div class="question-container">
       <Option
-        v-for="option in optionsArray" 
-        :key="option.title"
-        :option="option"
-        :options="options"
+        v-for="question in questions"
+        :key="question.title"
+        :question="question"
+        :answers="answers"
+        @select="answer => select(question, answer)"
       />
       <button
         class="primary"
@@ -55,7 +63,6 @@ function removeName(index: number) {
         :key="name"
         :name="name"
         @remove="() => removeName(index)"
-        :index="index"
       />
     </div>
   </div>
@@ -74,7 +81,7 @@ h1 {
   font-size: 3rem;
 }
 
-.options-container {
+.question-container {
   background-color: rgb(255, 238, 236);
   border-radius: 2rem;
   padding: 1rem;
@@ -82,10 +89,6 @@ h1 {
   margin: 0 auto;
   margin-top: 4rem;
   position: relative;
-}
-
-.option-container {
-  margin-bottom: 2rem;
 }
 
 .primary {
