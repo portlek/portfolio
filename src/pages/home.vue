@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const options = reactive({
-  gender: "Unisex",
-  popularity: "Unique",
-  length: "Short",
+  gender: 'Unisex',
+  popularity: 'Unique',
+  length: 'Short',
 })
 </script>
 
@@ -34,16 +34,26 @@ const options = reactive({
       <div class="option-container">
         <h4>2) Choose the name's popularity</h4>
         <div class="option-buttons">
-          <button class="option-left">Trendy</button>
-          <button class="option-right">Unique</button>
+          <button class="option-left">
+            Trendy
+          </button>
+          <button class="option-right">
+            Unique
+          </button>
         </div>
       </div>
       <div class="option-container">
         <h4>3) Choose the name's length</h4>
         <div class="option-buttons">
-          <button class="option-left">Long</button>
-          <button class="option">All</button>
-          <button class="option-right">Short</button>
+          <button class="option-left">
+            Long
+          </button>
+          <button class="option">
+            All
+          </button>
+          <button class="option-right">
+            Short
+          </button>
         </div>
       </div>
     </div>
