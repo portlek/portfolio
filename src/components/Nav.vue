@@ -8,15 +8,15 @@
         Restaurantly
       </NuxtLink>
       <div
-        class="collapse navbar-collapse"
         id="navbarSupportedContent"
+        class="collapse navbar-collapse"
       >
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <NuxtLink
               to="/restauranty"
               class="nav-link"
-              activeClass="active"
+              active-class="active"
               aria-current="page"
             >
               Home
@@ -26,7 +26,7 @@
             <NuxtLink
               to="/restaurants"
               class="nav-link"
-              activeClass="active"
+              active-class="active"
             >
               Restaurants
             </NuxtLink>

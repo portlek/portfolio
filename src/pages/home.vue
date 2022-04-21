@@ -4,7 +4,6 @@ import {
   Length,
   Popularity,
   names,
-  AnswersState,
   questions,
 } from '@/data'
 

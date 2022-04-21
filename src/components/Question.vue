@@ -1,10 +1,4 @@
 <script setup lang="ts">
-import {
-  Question,
-  Answer,
-  AnswersState,
-} from '@/data'
-
 interface QuestionProps {
   question: Question
   answers: AnswersState
@@ -13,7 +7,7 @@ interface QuestionProps {
 const props = defineProps<QuestionProps>()
 
 const emit = defineEmits([
-  'select'
+  'select',
 ])
 
 function select(value: Answer) {
