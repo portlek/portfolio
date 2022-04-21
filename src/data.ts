@@ -29,6 +29,35 @@ export interface Name {
   length: Length
 }
 
+export const optionsArray = [
+  {
+    title: "1) Choose a gender",
+    category: "gender",
+    buttons: [
+      Gender.MALE,
+      Gender.UNISEX,
+      Gender.FEMALE,
+    ],
+  },
+  {
+    title: "1) Choose the name's popularity",
+    category: "popularity",
+    buttons: [
+      Popularity.TRENDY,
+      Popularity.UNIQUE,
+    ],
+  },
+  {
+    title: "1) Choose the name's length",
+    category: "length",
+    buttons: [
+      Length.SHORT,
+      Length.LONG,
+      Length.ALL,
+    ],
+  },
+]
+
 export const names: Name[] = [
   {
     id: 1,
