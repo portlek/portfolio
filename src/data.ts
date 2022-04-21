@@ -3,19 +3,19 @@ export enum Gender {
   FEMALE = 'Female',
   UNISEX = 'Unisex',
 }
-  
+
 export enum Popularity {
   TRENDY = 'Trendy',
   UNIQUE = 'Unique',
 }
-  
+
 export enum Length {
   SHORT = 'Short',
   LONG = 'Long',
   ALL = 'All',
 }
 
-export  interface OptionsState {
+export interface OptionsState {
   gender: Gender
   popularity: Popularity
   length: Length
@@ -29,100 +29,94 @@ export interface Name {
   length: Length
 }
 
-export const options = reactive<OptionsState>({
-  gender: Gender.UNISEX,
-  popularity: Popularity.TRENDY,
-  length: Length.LONG,
-})
-
 export const names: Name[] = [
   {
     id: 1,
-    name: "Laith",
+    name: 'Laith',
     gender: Gender.MALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 2,
-    name: "Jake",
+    name: 'Jake',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 3,
-    name: "Lamelo",
+    name: 'Lamelo',
     gender: Gender.MALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 4,
-    name: "Abraham",
+    name: 'Abraham',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 5,
-    name: "Bartholomew",
+    name: 'Bartholomew',
     gender: Gender.MALE,
     popularity: Popularity.UNIQUE,
     length: Length.LONG,
   },
   {
     id: 6,
-    name: "Noah",
+    name: 'Noah',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 7,
-    name: "Benjamin",
+    name: 'Benjamin',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 8,
-    name: "William",
+    name: 'William',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 9,
-    name: "Lucus",
+    name: 'Lucus',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 10,
-    name: "Harrison",
+    name: 'Harrison',
     gender: Gender.MALE,
     popularity: Popularity.UNIQUE,
     length: Length.LONG,
   },
   {
     id: 11,
-    name: "Selma",
+    name: 'Selma',
     gender: Gender.MALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 12,
-    name: "Asher",
+    name: 'Asher',
     gender: Gender.MALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 13,
-    name: "Tucker",
+    name: 'Tucker',
     gender: Gender.MALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
@@ -130,91 +124,91 @@ export const names: Name[] = [
 
   {
     id: 14,
-    name: "Arya",
+    name: 'Arya',
     gender: Gender.FEMALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 15,
-    name: "Olivia",
+    name: 'Olivia',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 16,
-    name: "Fay",
+    name: 'Fay',
     gender: Gender.FEMALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 17,
-    name: "Brooklyn",
+    name: 'Brooklyn',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 18,
-    name: "Genevieve",
+    name: 'Genevieve',
     gender: Gender.FEMALE,
     popularity: Popularity.UNIQUE,
     length: Length.LONG,
   },
   {
     id: 19,
-    name: "Zoe",
+    name: 'Zoe',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 20,
-    name: "Valentina",
+    name: 'Valentina',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 21,
-    name: "Josephine",
+    name: 'Josephine',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 22,
-    name: "Maya",
+    name: 'Maya',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 23,
-    name: "Everleigh",
+    name: 'Everleigh',
     gender: Gender.FEMALE,
     popularity: Popularity.UNIQUE,
     length: Length.LONG,
   },
   {
     id: 24,
-    name: "Poppy",
+    name: 'Poppy',
     gender: Gender.FEMALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 25,
-    name: "Maia",
+    name: 'Maia',
     gender: Gender.FEMALE,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 26,
-    name: "Ivy",
+    name: 'Ivy',
     gender: Gender.FEMALE,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
@@ -222,58 +216,58 @@ export const names: Name[] = [
 
   {
     id: 27,
-    name: "Jude",
+    name: 'Jude',
     gender: Gender.UNISEX,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 28,
-    name: "Adrian",
+    name: 'Adrian',
     gender: Gender.UNISEX,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 29,
-    name: "Sunny",
+    name: 'Sunny',
     gender: Gender.UNISEX,
     popularity: Popularity.UNIQUE,
     length: Length.SHORT,
   },
   {
     id: 30,
-    name: "Channing",
+    name: 'Channing',
     gender: Gender.UNISEX,
     popularity: Popularity.TRENDY,
     length: Length.LONG,
   },
   {
     id: 31,
-    name: "Tennessee",
+    name: 'Tennessee',
     gender: Gender.UNISEX,
     popularity: Popularity.UNIQUE,
     length: Length.LONG,
   },
   {
     id: 32,
-    name: "Dallas",
+    name: 'Dallas',
     gender: Gender.UNISEX,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
   {
     id: 33,
-    name: "Zephyr",
+    name: 'Zephyr',
     gender: Gender.UNISEX,
     popularity: Popularity.UNIQUE,
     length: Length.LONG,
   },
   {
     id: 34,
-    name: "Teri",
+    name: 'Teri',
     gender: Gender.UNISEX,
     popularity: Popularity.TRENDY,
     length: Length.SHORT,
   },
-])
+]

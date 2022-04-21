@@ -1,9 +1,27 @@
 <script setup lang="ts">
 import {
   Gender,
+  Length,
   Popularity,
-  Length
-} from "@/data"
+  names,
+} from '@/data'
+
+const options = reactive<OptionsState>({
+  gender: Gender.UNISEX,
+  popularity: Popularity.TRENDY,
+  length: Length.LONG,
+})
+
+const selectedNames = ref<string[]>([
+])
+
+function computeSelectedNames() {
+  selectedNames.value = names
+    .filter(s => s.gender === options.gender)
+    .filter(s => s.popularity === options.popularity)
+    .filter(s => options.length === Length.ALL || s.length === options.length)
+    .map(s => s.name)
+}
 </script>
 
 <template>
@@ -84,10 +102,12 @@ import {
       </div>
       <button
         class="primary"
+        @click="computeSelectedNames"
       >
         Find names
       </button>
     </div>
+    {{ selectedNames }}
   </div>
 </template>
 
