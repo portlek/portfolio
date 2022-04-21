@@ -1,32 +1,9 @@
 <script setup lang="ts">
-enum Gender {
-  MALE = 'Male',
-  FEMALE = 'Female',
-  UNISEX = 'Unisex',
-}
-
-enum Popularity {
-  TRENDY = 'Trendy',
-  UNIQUE = 'Unique',
-}
-
-enum Length {
-  SHORT = 'Short',
-  LONG = 'Long',
-  ALL = 'All',
-}
-
-interface OptionsState {
-  gender: Gender
-  popularity: Popularity
-  length: Length
-}
-
-const options = reactive<OptionsState>({
-  gender: Gender.UNISEX,
-  popularity: Popularity.TRENDY,
-  length: Length.LONG,
-})
+import {
+  Gender,
+  Popularity,
+  Length
+} from "@/data"
 </script>
 
 <template>
@@ -167,6 +144,7 @@ h1 {
 
 .option-active {
   background-color: rgb(249, 87, 89);
+  color: white;
 }
 
 .primary {
@@ -175,6 +153,7 @@ h1 {
   border: none;
   padding: 0.75rem 4rem;
   margin-top: 1rem;
+  color: white;
   cursor: pointer;
 }
 </style>
