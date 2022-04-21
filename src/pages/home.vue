@@ -8,7 +8,7 @@ import {
 
 <template>
   <div class="container">
-    <h1>Portfolio</h1>
+    <h1>Name Generator</h1>
     <p>Choose your options and click the "Find Names" buttom below</p>
     <div class="options-container">
       <div class="option-container">
