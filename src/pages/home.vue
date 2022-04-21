@@ -40,15 +40,21 @@ const options = reactive<OptionsState>({
           <button
             class="option-left"
             :class="options.gender === Gender.MALE && 'option-active'"
+            @click="options.gender = Gender.MALE"
           >
             Male
           </button>
-          <button class="option" :class="options.gender === Gender.UNISEX && 'option-active'">
+          <button
+            class="option"
+            :class="options.gender === Gender.UNISEX && 'option-active'"
+            @click="options.gender = Gender.UNISEX"
+          >
             Unisex
           </button>
           <button
             class="option-right"
             :class="options.gender === Gender.FEMALE && 'option-active'"
+            @click="options.gender = Gender.FEMALE"
           >
             Female
           </button>
@@ -60,12 +66,14 @@ const options = reactive<OptionsState>({
           <button
             class="option-left"
             :class="options.popularity === Popularity.TRENDY && 'option-active'"
+            @click="options.popularity = Popularity.TRENDY"
           >
             Trendy
           </button>
           <button
             class="option-right"
             :class="options.popularity === Popularity.UNIQUE && 'option-active'"
+            @click="options.popularity = Popularity.UNIQUE"
           >
             Unique
           </button>
@@ -77,18 +85,21 @@ const options = reactive<OptionsState>({
           <button
             class="option-left"
             :class="options.length === Length.LONG && 'option-active'"
+            @click="options.length = Length.LONG"
           >
             Long
           </button>
           <button
             class="option"
             :class="options.length === Length.ALL && 'option-active'"
+            @click="options.length = Length.ALL"
           >
             All
           </button>
           <button
             class="option-right"
             :class="options.length === Length.SHORT && 'option-active'"
+            @click="options.length = Length.SHORT"
           >
             Short
           </button>
