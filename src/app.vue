@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Vitesse Nuxt 3',
+  title: 'Hasan Demirtaş - portlek',
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/nuxt.png',
