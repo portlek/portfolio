@@ -12,6 +12,11 @@
 
 <style>
 .contact-me:hover {
+  background: white;
+}
+
+.dark
+.contact-me:hover {
   background: black;
 }
 </style>
