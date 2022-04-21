@@ -6,8 +6,6 @@ import {
   names,
   AnswersState,
   questions,
-  Question,
-  Answer,
 } from '@/data'
 
 const selectedNames = ref<string[]>([
@@ -27,10 +25,6 @@ function computeSelectedNames() {
     .map(s => s.name)
 }
 
-function select(question: Question, answer: Answer) {
-  answers[question.category] = answer
-}
-
 function removeName(index: number) {
   const fileteredNames = [...selectedNames.value]
   fileteredNames.splice(index, 1)
@@ -43,12 +37,12 @@ function removeName(index: number) {
     <h1>Name Generator</h1>
     <p>Choose your options and click the "Find Names" buttom below</p>
     <div class="question-container">
-      <Option
+      <Question
         v-for="question in questions"
         :key="question.title"
         :question="question"
         :answers="answers"
-        @select="answer => select(question, answer)"
+        @select="(answer) => answers[question.category] = answer"
       />
       <button
         class="primary"

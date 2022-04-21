@@ -7,7 +7,7 @@ import {
 
 interface QuestionProps {
   question: Question
-  answer: AnswersState
+  answers: AnswersState
 }
 
 const props = defineProps<QuestionProps>()
@@ -22,7 +22,7 @@ function select(value: Answer) {
 
 function computeButtonClasses(value: Answer, index: number) {
   const classNames = []
-  if (props.answer[props.question.category] === value)
+  if (props.answers[props.question.category] === value)
     classNames.push('answer-active')
   if (index === 0)
     classNames.push('answer-left')
