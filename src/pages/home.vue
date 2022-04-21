@@ -34,10 +34,16 @@ const options = reactive({
       <div class="option-container">
         <h4>2) Choose the name's popularity</h4>
         <div class="option-buttons">
-          <button class="option-left">
+          <button
+            class="option-left"
+            :class="options.popularity === 'Trendy' && 'option-active'"
+          >
             Trendy
           </button>
-          <button class="option-right">
+          <button 
+            class="option-right"
+            :class="options.popularity === 'Unique' && 'option-active'"
+          >
             Unique
           </button>
         </div>
@@ -45,13 +51,22 @@ const options = reactive({
       <div class="option-container">
         <h4>3) Choose the name's length</h4>
         <div class="option-buttons">
-          <button class="option-left">
+          <button
+            class="option-left"
+            :class="options.length === 'Long' && 'option-active'"
+          >
             Long
           </button>
-          <button class="option">
+          <button
+            class="option"
+            :class="options.length === 'All' && 'option-active'"
+          >
             All
           </button>
-          <button class="option-right">
+          <button
+            class="option-right"
+            :class="options.length === 'Short' && 'option-active'"
+          >
             Short
           </button>
         </div>
