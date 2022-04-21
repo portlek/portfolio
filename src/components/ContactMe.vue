@@ -1,7 +1,6 @@
 <template>
   <div>
     <button
-      class="contact-me"
       px-4 py-1
       rounded
       inline-block
@@ -12,13 +11,13 @@
   </div>
 </template>
 
-<style>
-.contact-me:hover {
+<style scoped>
+button:hover {
   background: white;
 }
 
 .dark
-.contact-me:hover {
+button:hover {
   background: black;
 }
 </style>

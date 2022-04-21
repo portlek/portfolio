@@ -15,7 +15,7 @@ useHead({
   </NuxtLayout>
 </template>
 
-<style>
+<style lang="scss">
 html,
 body,
 #app {
@@ -26,6 +26,5 @@ body,
 
 html.dark {
   background: #222;
-  color: white;
 }
 </style>
