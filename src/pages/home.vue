@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  const options = reactive({
-    gender: "Unisex",
-    popularity: "Unique",
-    length: "Short",
-  })
+const options = reactive({
+  gender: "Unisex",
+  popularity: "Unique",
+  length: "Short",
+})
 </script>
 
 <template>
@@ -20,10 +20,7 @@
           >
             Male
           </button>
-          <button
-            class="option"
-            :class="options.gender === 'Unisex' && 'option-active'"
-          >
+          <button class="option" :class="options.gender === 'Unisex' && 'option-active'">
             Unisex
           </button>
           <button
