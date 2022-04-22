@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
+import {} from '@unocss/nuxt'
 
 export default defineNuxtConfig({
   srcDir: 'src',
@@ -6,6 +7,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
+    '@unocss/nuxt',
   ],
   experimental: {
     reactivityTransform: true,
@@ -15,5 +17,15 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
+  },
+  unocss: {
+    uno: true,
+    attributify: true,
+    preflight: true,
+    icons: {
+      scale: 1.2,
+    },
+    autoImport: true,
+    wind: true,
   },
 })
