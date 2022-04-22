@@ -13,7 +13,6 @@ export default defineNuxtConfig({
   vueuse: {
     ssrHandlers: true,
   },
-  },
   colorMode: {
     classSuffix: '',
   },
