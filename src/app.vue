@@ -16,8 +16,13 @@ useHead({
 </template>
 
 <style lang="scss">
-@import "./styles/_tailwind.css";
-@import "@left4code/tw-starter/dist/css/_btn.css";
+html,
+body,
+#app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
 html.dark {
   background-color: #222;
