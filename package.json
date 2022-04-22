@@ -15,7 +15,7 @@
     "@pinia/nuxt": "0.1.8",
     "@unocss/nuxt": "0.31.12",
     "@vueuse/nuxt": "8.3.1",
-    "eslint": "8.13.0",
+    "eslint": "8.14.0",
     "nuxt": "3.0.0-rc.1",
     "pinia": "2.0.13",
     "tailwindcss": "^3.0.24",
