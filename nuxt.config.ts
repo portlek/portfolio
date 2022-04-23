@@ -27,5 +27,9 @@ export default defineNuxtConfig({
     },
     autoImport: true,
     wind: true,
+    shortcuts: [
+      [
+      ],
+    ],
   },
 })
