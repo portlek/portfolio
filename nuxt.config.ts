@@ -21,15 +21,11 @@ export default defineNuxtConfig({
   unocss: {
     uno: true,
     attributify: true,
-    preflight: true,
     icons: {
       scale: 1.2,
     },
     autoImport: true,
-    wind: true,
     shortcuts: [
-      [
-      ],
     ],
   },
 })
