@@ -39,7 +39,7 @@
         <h4>Latest Recipes</h4>
         <div>
           <div>
-            <img src="" alt="">
+            <img src="nuxt.png" alt="">
             <div>
               <span>5 Bean Chilli Stew</span>
               <span>Recipe by Mario</span>
