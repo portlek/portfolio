@@ -1,0 +1,33 @@
+<template>
+  <div
+    class="
+    w-auto
+    h-auto
+    overflow-visible
+    relative
+    font-poppins
+    lg:p-[15px] p-[0px]
+    lg:before:topbottom
+    lg:after:topbottom
+    lg:after:top-auto
+    lg:after:bottom-0
+    lg:dark:after:bg-white
+    lg:dark:before:bg-white"
+  >
+    <div
+      class="
+      h-auto
+      overflow-visible
+      overflow-x-hidden
+      max-w-[1440px]
+      mx-auto
+      bg-[#1e1e28]
+      bg-cover
+      w-[100%]
+      relative
+      max-lg:rounded-[0]"
+    >
+      Hasan Demirtaş
+    </div>
+  </div>
+</template>
