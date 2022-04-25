@@ -40,7 +40,7 @@
           class="
           max-lg:h-[100vh!important]
           fixed
-          max-lg:side-active
+          max-lg:portfolio-side-bar-active
           max-lg:left-[-290px]
           max-lg:w-[290px]
           bg-[#20202a]
