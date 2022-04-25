@@ -8,8 +8,8 @@
     font-poppins
     text-[#8c8c8e]
     lg:p-[15px] p-[0px]
-    lg:before:topleft
-    lg:after:topleft
+    lg:before:portfolio-topleft
+    lg:after:portfolio-topleft
     lg:after:top-auto
     lg:after:bottom-0"
   >
@@ -25,7 +25,7 @@
       w-[100%]
       relative
       max-lg:rounded-[0]
-      custom-shadow"
+      portfolio-default-shadow"
     >
       <div
         class="
@@ -33,7 +33,7 @@
         max-lg:w-100%
         flex
         flex-nowrap
-        lg:before:topright"
+        lg:before:portfolio-topright"
       >
         <!-- Info bar-->
         <div
@@ -48,16 +48,52 @@
           min-w-[290px]
           h-[calc(100vh-30px)]
           z-999
-          custom-shadow
+          portfolio-default-shadow
           transition-all duration-[0.55s] delay-[0s]
           px-[15px]"
         >
-          Hasan Demirtaş
+          <div
+            class="
+            p-[15px]"
+          >
+            <!-- Info bar header -->
+            <div
+              class=""
+            >
+              Hasan Demirtaş
+            </div>
+            <!-- Header -->
+            <div
+              class="
+              absolute
+              left-0
+              top-0
+              z-99999
+              w-[100%]
+              p-[30px]
+              h-[235px]
+              portfolio-avatar-gradient
+              text-center
+              portfolio-avatar-shadow"
+            >
+              Hasan Demirtaş
+              <!-- Avater -->
+            </div>
+          </div>
         </div>
         <!-- Content -->
         <div
           class="
-          pl-[290px]"
+          max-lg:pl-0
+          max-lg:w-auto
+          pl-[290px]
+          h-auto
+          relative
+          max-lg:pr-0
+          max-lg:pt-[70px]
+          overflow-hidden
+          w-[100vw]
+          transition-all duration-[0.55s] delay-[0s]"
         >
           Hasan Demirtaş
         </div>

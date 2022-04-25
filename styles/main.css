@@ -23,10 +23,6 @@ body {
 }
 
 @layer utilities {
-  .custom-shadow {
-    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%)
-  }
-
   .webkit-box-pack-start {
     -webkit-box-pack: start
   }
@@ -39,11 +35,19 @@ body {
     -webkit-font-smoothing: antialiased
   }
 
+  .portfolio-default-shadow {
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%)
+  }
+
+  .portfolio-avatar-shadow {
+    box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+  }
+
   .pointer-events-all {
     pointer-events: all
   }
 
-  .topleft {
+  .portfolio-topleft {
     content: '';
     position: fixed;
     left: 0;
@@ -54,7 +58,7 @@ body {
     z-index: 9999;
   }
   
-  .topright {
+  .portfolio-topright {
     content: '';
     position: fixed;
     right: 0;
@@ -68,5 +72,9 @@ body {
   .portfolio-side-bar-active {
     -webkit-transform: translateX(290px);
     transform: translateX(290px);
+  }
+
+  .portfolio-avatar-gradient {
+    background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
   }
 }
