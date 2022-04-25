@@ -43,6 +43,10 @@ img {
   border-style: none;
 }
 
+i {
+  font-style: italic;
+}
+
 @layer utilities {
   .webkit-box-pack-start {
     -webkit-box-pack: start
@@ -50,6 +54,10 @@ img {
 
   .webkit-box-pack-center {
     -webkit-box-pack: center
+  }
+
+  .webkit-box-pack-justify {
+    -webkit-box-pack: justify
   }
 
   .webkit-box-align-center {
@@ -64,7 +72,7 @@ img {
     box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%)
   }
 
-  .portfolio-avatar-shadow {
+  .portfolio-custom-shadow {
     box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
   }
 
@@ -101,5 +109,9 @@ img {
 
   .portfolio-avatar-gradient {
     background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+  }
+
+  .portfolio-bottom-gradient {
+    background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
   }
 }

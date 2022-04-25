@@ -58,6 +58,7 @@
             <!-- Info bar header -->
             <div>Header</div>
             <SideAvatarHeader />
+            <SideBottomBar />
           </div>
         </div>
         <!-- Content -->

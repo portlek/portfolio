@@ -1,0 +1,34 @@
+<template>
+  <div
+    class="
+    justify-center
+    flex
+    webkit-box-align-center
+    items-center
+    webkit-box-pack-justify
+    px-[35px]
+    h-[50px]
+    portfolio-bottom-gradient
+    absolute
+    bottom-0
+    portfolio-custom-shadow
+    left-0
+    w-[100%]
+    z-999
+    text-left"
+  >
+    <a
+      href="https://github.com/portlek"
+      target="_blank"
+      class="
+      mx-[8px]
+      transition-all duration-[0.2s] delay-[0s]
+      text-[#8c8c8e]"
+    >
+      <i
+        class="
+        i-carbon-logo-github"
+      />
+    </a>
+  </div>
+</template>

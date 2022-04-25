@@ -10,7 +10,7 @@
     h-[235px]
     portfolio-avatar-gradient
     text-center
-    portfolio-avatar-shadow"
+    portfolio-custom-shadow"
   >
     <div
       class="
