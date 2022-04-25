@@ -57,7 +57,7 @@
         <!-- Content -->
         <div
           class="
-          "
+          pl-[290px]"
         >
           Hasan Demirtaş
         </div>
