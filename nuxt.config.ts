@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
-    '@unocss/nuxt',
   ],
   experimental: {
     reactivityTransform: true,
