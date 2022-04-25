@@ -1,0 +1,27 @@
+<template>
+  <div
+    class="
+    relative
+    w-[100%]
+    h-[100%]
+    rounded-[50%]
+    flex
+    webkit-box-pack-center
+    justify-center
+    outline-inherit
+    transition-all duration-[0.2s] delay-[0s]
+    z-0"
+  >
+    <img
+      src="~/assets/avatar.png"
+      alt="avatar"
+      class="
+      absolute
+      w-[100%]
+      h-[100%]
+      object-cover
+      rounded-[50%]
+      z-0"
+    >
+  </div>
+</template>

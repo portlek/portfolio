@@ -5,7 +5,6 @@
     h-auto
     overflow-visible
     relative
-    font-poppins
     text-[#8c8c8e]
     lg:p-[15px] p-[0px]
     lg:before:portfolio-topleft
@@ -57,28 +56,8 @@
             p-[15px]"
           >
             <!-- Info bar header -->
-            <div
-              class=""
-            >
-              Hasan Demirtaş
-            </div>
-            <!-- Header -->
-            <div
-              class="
-              absolute
-              left-0
-              top-0
-              z-99999
-              w-[100%]
-              p-[30px]
-              h-[235px]
-              portfolio-avatar-gradient
-              text-center
-              portfolio-avatar-shadow"
-            >
-              Hasan Demirtaş
-              <!-- Avater -->
-            </div>
+            <div>Header</div>
+            <SideAvatarHeader />
           </div>
         </div>
         <!-- Content -->
@@ -95,7 +74,7 @@
           w-[100vw]
           transition-all duration-[0.55s] delay-[0s]"
         >
-          Hasan Demirtaş
+          Content
         </div>
       </div>
     </div>
