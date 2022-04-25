@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
+    '@unocss/nuxt',
   ],
   experimental: {
     reactivityTransform: true,
@@ -22,6 +23,11 @@ export default defineNuxtConfig({
     jit: true,
     cssPath: '~/styles/tailwind.css',
     viewer: false,
+  },
+  unocss: {
+    icons: {
+      scale: 1.2,
+    },
   },
   css: [
     '~/styles/main.css',
