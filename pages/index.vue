@@ -1,5 +1,5 @@
 <template>
   <div>
-    Portfolio
+    <DarkToggle />
   </div>
 </template>

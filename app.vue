@@ -14,18 +14,3 @@ useHead({
     <NuxtPage />
   </NuxtLayout>
 </template>
-
-<style lang="scss">
-html,
-body,
-#app {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-html.dark {
-  background-color: #222;
-  color: white;
-}
-</style>

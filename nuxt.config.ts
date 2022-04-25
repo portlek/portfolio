@@ -1,11 +1,13 @@
 import { defineNuxtConfig } from 'nuxt'
+import {} from '@nuxtjs/tailwindcss'
 
 export default defineNuxtConfig({
-  srcDir: 'src',
+  components: true,
   modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
+    '@nuxtjs/tailwindcss',
   ],
   experimental: {
     reactivityTransform: true,
@@ -16,4 +18,11 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
+  tailwindcss: {
+    jit: true,
+    cssPath: '~/styles/tailwind.css',
+  },
+  css: [
+    '~/styles/main.css',
+  ],
 })
