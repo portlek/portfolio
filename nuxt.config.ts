@@ -24,6 +24,11 @@ export default defineNuxtConfig({
     cssPath: '~/styles/tailwind.css',
     viewer: false,
   },
+  unocss: {
+    icons: {
+      scale: 1.2,
+    },
+  },
   css: [
     '~/styles/main.css',
   ],
