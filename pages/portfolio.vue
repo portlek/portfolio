@@ -35,6 +35,7 @@
         flex-nowrap
         lg:before:topright"
       >
+        <!-- Info bar-->
         <div
           class="
           max-lg:h-[100vh!important]
@@ -50,6 +51,13 @@
           custom-shadow
           transition-all duration-[0.55s] delay-[0s]
           px-[15px]"
+        >
+          Hasan Demirtaş
+        </div>
+        <!-- Content -->
+        <div
+          class="
+          "
         >
           Hasan Demirtaş
         </div>
