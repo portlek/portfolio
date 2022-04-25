@@ -21,6 +21,7 @@ export default defineNuxtConfig({
   tailwindcss: {
     jit: true,
     cssPath: '~/styles/tailwind.css',
+    viewer: false,
   },
   css: [
     '~/styles/main.css',
