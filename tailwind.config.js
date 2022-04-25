@@ -1,10 +1,11 @@
 module.exports = {
   mode: 'jit',
   content: [
-    'components/**/*.{vue,ts}',
-    'composables/**/*.{vue,ts}',
-    'layouts/**/*.{vue,ts}',
-    'pages/**/*.{vue,ts}',
+    'components/**/*.{vue,ts,css}',
+    'composables/**/*.{vue,ts,css}',
+    'layouts/**/*.{vue,ts,css}',
+    'pages/**/*.{vue,ts,css}',
+    'styles/**/*.{vue,ts,css}',
     'app.vue',
   ],
   theme: {

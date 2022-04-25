@@ -64,4 +64,9 @@ body {
     background: #191923;
     z-index: 9999;
   }
+
+  .portfolio-side-bar-active {
+    -webkit-transform: translateX(290px);
+    transform: translateX(290px);
+  }
 }

@@ -65,14 +65,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-@import '~/styles/main.css';
-
-@layer utilities {
-  .side-active {
-    -webkit-transform: translateX(290px);
-    transform: translateX(290px);
-  }
-}
-</style>
