@@ -7,8 +7,8 @@
     relative
     font-poppins
     lg:p-[15px] p-[0px]
-    lg:before:topbottom
-    lg:after:topbottom
+    lg:before:topleft
+    lg:after:topleft
     lg:after:top-auto
     lg:after:bottom-0
     lg:dark:after:bg-white
@@ -25,9 +25,18 @@
       bg-cover
       w-[100%]
       relative
-      max-lg:rounded-[0]"
+      max-lg:rounded-[0]
+      custom-shadow"
     >
-      Hasan Demirtaş
+      <div
+        class="
+        relative
+        max-lg:w-100%
+        flex
+        flex-nowrap"
+      >
+        Hasan Demirtaş
+      </div>
     </div>
   </div>
 </template>

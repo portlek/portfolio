@@ -22,4 +22,7 @@ export default defineNuxtConfig({
     jit: true,
     cssPath: '~/styles/tailwind.css',
   },
+  css: [
+    '~/styles/main.css',
+  ],
 })
