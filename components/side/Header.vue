@@ -1,8 +1,8 @@
 <template>
   <div
     class="
-    max-lg:flex
-    hidden
+    flex
+    lg:hidden
     w-[100%]
     h-[70px]
     webkit-box-pack-start
@@ -16,24 +16,25 @@
   >
     <a
       class="
+      inner-a
       max-lg:translate-x-[70px]
       max-lg:transition-all
       max-lg:duration-[0.4s]
       max-lg:delay-[0s]
       ml-auto
       pointer-events-all
-      text-[14px]
       p-[30px]"
     >
-      <div
+      <i
         class="
-        max-lg:i-carbon-overflow-menu-vertical
+        i-carbon-overflow-menu-vertical
         font-black
+        font-stretch-normal
         webkit-font-antialiased
         inline-block
-        not-italic,
+        italic,
         font-variant-normal
-        text-reading-auto
+        text-rendering-auto
         leading-[1]
         font-size-inherit
         pointer-events-all"
@@ -41,3 +42,9 @@
     </a>
   </div>
 </template>
+
+<style scoped>
+.inner-a {
+  font-size: 14px;
+}
+</style>

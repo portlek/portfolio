@@ -72,11 +72,15 @@ a:not([href]):not([tabindex]) {
     -webkit-font-smoothing: antialiased
   }
 
+  .font-stretch-normal {
+    font-stretch: normal;
+  }
+
   .font-size-inherit {
     font-size: inherit;
   }
 
-  .text-reading-auto {
+  .text-rendering-auto {
     text-rendering: auto;
   }
 
