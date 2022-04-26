@@ -1,0 +1,50 @@
+<template>
+  <div
+    class="
+    flex
+    lg:hidden
+    w-[100%]
+    h-[70px]
+    webkit-box-pack-start
+    justify-start
+    webkit-box-align-center
+    items-center
+    absolute
+    left-0
+    top-0
+    z-999999999999"
+  >
+    <a
+      class="
+      inner-a
+      max-lg:translate-x-[70px]
+      max-lg:transition-all
+      max-lg:duration-[0.4s]
+      max-lg:delay-[0s]
+      ml-auto
+      pointer-events-all
+      p-[30px]"
+    >
+      <i
+        class="
+        i-carbon-overflow-menu-vertical
+        font-black
+        font-stretch-normal
+        webkit-font-antialiased
+        inline-block
+        italic,
+        font-variant-normal
+        text-rendering-auto
+        leading-[1]
+        font-size-inherit
+        pointer-events-all"
+      />
+    </a>
+  </div>
+</template>
+
+<style scoped>
+.inner-a {
+  font-size: 14px;
+}
+</style>

@@ -39,7 +39,6 @@
           class="
           max-lg:h-[100vh!important]
           fixed
-          max-lg:portfolio-side-bar-active
           max-lg:left-[-290px]
           max-lg:w-[290px]
           bg-[#20202a]
@@ -55,8 +54,7 @@
             class="
             p-[15px]"
           >
-            <!-- Info bar header -->
-            <div>Header</div>
+            <SideHeader />
             <SideAvatarHeader />
             <SideBottomBar />
           </div>

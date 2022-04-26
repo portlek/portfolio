@@ -23,12 +23,8 @@
       class="
       mx-[8px]
       transition-all duration-[0.2s] delay-[0s]
-      text-[#8c8c8e]"
-    >
-      <i
-        class="
-        i-carbon-logo-github"
-      />
-    </a>
+      text-gray-200
+      i-carbon-logo-github"
+    />
   </div>
 </template>
