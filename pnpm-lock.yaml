@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': 0.22.0
-  '@iconify-json/carbon': 1.1.3
+  '@iconify-json/carbon': 1.1.4
   '@iconify-json/twemoji': 1.1.3
   '@mapbox/node-pre-gyp': 1.0.9
   '@nuxtjs/color-mode': 3.0.2
@@ -21,7 +21,7 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config': 0.22.0_t725usgvqspm5woeqpaxbfp2qu
-  '@iconify-json/carbon': 1.1.3
+  '@iconify-json/carbon': 1.1.4
   '@iconify-json/twemoji': 1.1.3
   '@mapbox/node-pre-gyp': 1.0.9
   '@nuxtjs/color-mode': 3.0.2_vite@2.9.6+webpack@5.72.0
@@ -478,8 +478,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.3:
-    resolution: {integrity: sha512-jbxBsk4YfeVyT/OkIYN6W9AJci3g5BMWzp1q4r3OsHMH2qhfGpxulRPm9kaYP5hGi8m3ZPNmzpewh87YoZ81fw==}
+  /@iconify-json/carbon/1.1.4:
+    resolution: {integrity: sha512-I2Y80wAR+Z3Ut68xiwBfRtw4Lwj7IqeOkCfEnWFC9/dA2ixIJEkCxy8HyNLO3z9RiSF7HZtgI8qGHhyNA2b6EQ==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
@@ -586,11 +586,11 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/kit-edge/3.0.0-rc.1-27520989.22954d0_vite@2.9.6+webpack@5.72.0:
-    resolution: {integrity: sha512-0zNhrgp1tfmOH5S7Tmtxi3TvU05P3lRLc76KOsu8yhhtV+ixquFxtw8VlgUldvDBUizsnY2Bx279yBVjzARNdA==}
+  /@nuxt/kit-edge/3.0.0-rc.1-27524767.4826918_vite@2.9.6+webpack@5.72.0:
+    resolution: {integrity: sha512-uFb65KlfDSNAQr6ZOH98P6dLFQ5XpHE5eEV+bm0Seh5FUtJ06XgMthEREr+iDz7qiMOOr2YdqsHqDLZvDe4tAw==}
     engines: {node: ^14.16.0 || ^16.11.0 || ^17.0.0 || ^18.0.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.1-27520989.22954d0_vite@2.9.6+webpack@5.72.0
+      '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.1-27524767.4826918_vite@2.9.6+webpack@5.72.0
       c12: 0.2.7
       consola: 2.15.3
       defu: 6.0.0
@@ -691,8 +691,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/schema-edge/3.0.0-rc.1-27520989.22954d0_vite@2.9.6+webpack@5.72.0:
-    resolution: {integrity: sha512-FTGq322moUA4vyAtf335oIXSkaIExd0tx0AIXm40aKlqsvy2pZ8S/cZ+ZHHjU68QOKZ8wnnQJTeky3x55Cm6ig==}
+  /@nuxt/schema-edge/3.0.0-rc.1-27524767.4826918_vite@2.9.6+webpack@5.72.0:
+    resolution: {integrity: sha512-KL13DWzJI8HEJP9QoOjU07csMu+SccN++9yknFovGT6E6OZXTAPP8PgtXGRoAFtuL2lR+rZr5kTkVP2Ky1sYJQ==}
     engines: {node: ^14.16.0 || ^16.11.0 || ^17.0.0 || ^18.0.0}
     dependencies:
       c12: 0.2.7
@@ -836,7 +836,7 @@ packages:
   /@nuxtjs/color-mode/3.0.2_vite@2.9.6+webpack@5.72.0:
     resolution: {integrity: sha512-JgppnxOsVe2T/UGj0xjok/8TKDI27bRuhNh+Qrvr0FsS90Mty2acZLLN0lkrOTV0WLrpnTgN7mZCrgCWmhvziA==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.1-27520989.22954d0_vite@2.9.6+webpack@5.72.0
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.1-27524767.4826918_vite@2.9.6+webpack@5.72.0
       defu: 5.0.1
       lodash.template: 4.5.0
       pathe: 0.2.0
@@ -851,7 +851,7 @@ packages:
   /@nuxtjs/tailwindcss/5.0.3_vite@2.9.6+webpack@5.72.0:
     resolution: {integrity: sha512-nkr5/K/ILQs63414JqCyBApaAE5EKZ3dq9u8O98LryS91O5pqnvhvbD6aRPmIgf6zDhFfzlfCB040GUSAa03og==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.1-27520989.22954d0_vite@2.9.6+webpack@5.72.0
+      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.1-27524767.4826918_vite@2.9.6+webpack@5.72.0
       '@nuxt/postcss8': 1.1.3_webpack@5.72.0
       autoprefixer: 10.4.5_postcss@8.4.12
       chalk: 4.1.2
