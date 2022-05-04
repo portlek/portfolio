@@ -6,7 +6,7 @@ specifiers:
   '@iconify-json/twemoji': 1.1.4
   '@mapbox/node-pre-gyp': 1.0.9
   '@nuxtjs/color-mode': 3.0.2
-  '@nuxtjs/tailwindcss': 5.0.3
+  '@nuxtjs/tailwindcss': 5.0.4
   '@pinia/nuxt': 0.1.8
   '@unocss/nuxt': 0.32.12
   '@vueuse/nuxt': 8.4.1
@@ -25,7 +25,7 @@ devDependencies:
   '@iconify-json/twemoji': 1.1.4
   '@mapbox/node-pre-gyp': 1.0.9
   '@nuxtjs/color-mode': 3.0.2_vite@2.9.7+webpack@5.72.0
-  '@nuxtjs/tailwindcss': 5.0.3_vite@2.9.7+webpack@5.72.0
+  '@nuxtjs/tailwindcss': 5.0.4_vite@2.9.7+webpack@5.72.0
   '@pinia/nuxt': 0.1.8_pinia@2.0.13+vue@3.2.33
   '@unocss/nuxt': 0.32.12_vite@2.9.7+webpack@5.72.0
   '@vueuse/nuxt': 8.4.1_cpfto6sf5bzrzgeoftpp33uoym
@@ -713,7 +713,7 @@ packages:
   /@nuxt/postcss8/1.1.3_webpack@5.72.0:
     resolution: {integrity: sha512-CdHtErhvQwueNZPBOmlAAKrNCK7aIpZDYhtS7TzXlSgPHHox1g3cSlf+Ke9oB/8t4mNNjdB+prclme2ibuCOEA==}
     dependencies:
-      autoprefixer: 10.4.5_postcss@8.4.13
+      autoprefixer: 10.4.7_postcss@8.4.13
       css-loader: 5.2.7_webpack@5.72.0
       defu: 3.2.2
       postcss: 8.4.13
@@ -882,19 +882,20 @@ packages:
       - webpack
     dev: true
 
-  /@nuxtjs/tailwindcss/5.0.3_vite@2.9.7+webpack@5.72.0:
-    resolution: {integrity: sha512-nkr5/K/ILQs63414JqCyBApaAE5EKZ3dq9u8O98LryS91O5pqnvhvbD6aRPmIgf6zDhFfzlfCB040GUSAa03og==}
+  /@nuxtjs/tailwindcss/5.0.4_vite@2.9.7+webpack@5.72.0:
+    resolution: {integrity: sha512-sNU7L0GueSP0dnZzHoqLjO6zqNjVImXvJtm8q+aouxuK+RsnzHorY5DKwNmNN3eJqSw6u7zL0dcIeOXFUjdoWQ==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.2-27526179.f74a523_vite@2.9.7+webpack@5.72.0
+      '@nuxt/kit': 3.0.0-rc.2_vite@2.9.7+webpack@5.72.0
       '@nuxt/postcss8': 1.1.3_webpack@5.72.0
-      autoprefixer: 10.4.5_postcss@8.4.12
+      '@types/tailwindcss': 3.0.10
+      autoprefixer: 10.4.7_postcss@8.4.13
       chalk: 4.1.2
       clear-module: 4.1.2
       consola: 2.15.3
       defu: 5.0.1
-      postcss: 8.4.12
-      postcss-custom-properties: 12.1.7_postcss@8.4.12
-      postcss-nesting: 10.1.4_postcss@8.4.12
+      postcss: 8.4.13
+      postcss-custom-properties: 12.1.7_postcss@8.4.13
+      postcss-nesting: 10.1.4_postcss@8.4.13
       tailwind-config-viewer: 1.6.3_tailwindcss@3.0.24
       tailwindcss: 3.0.24
       ufo: 0.7.11
@@ -1101,6 +1102,10 @@ packages:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
       '@types/node': 17.0.27
+    dev: true
+
+  /@types/tailwindcss/3.0.10:
+    resolution: {integrity: sha512-1UnZIHO0NOPyPlPFV0HuMjki2SHkvG9uBA1ZehWj/OQMSROk503nuNyyfmJSIT289yewxTbKoPG+KLxYRvfIIg==}
     dev: true
 
   /@types/tough-cookie/4.0.2:
@@ -1974,38 +1979,6 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer/10.4.5_postcss@8.4.12:
-    resolution: {integrity: sha512-Fvd8yCoA7lNX/OUllvS+aS1I7WRBclGXsepbvT8ZaPgrH24rgXpZzF0/6Hh3ZEkwg+0AES/Osd196VZmYoEFtw==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.20.3
-      caniuse-lite: 1.0.30001332
-      fraction.js: 4.2.0
-      normalize-range: 0.1.2
-      picocolors: 1.0.0
-      postcss: 8.4.12
-      postcss-value-parser: 4.2.0
-    dev: true
-
-  /autoprefixer/10.4.5_postcss@8.4.13:
-    resolution: {integrity: sha512-Fvd8yCoA7lNX/OUllvS+aS1I7WRBclGXsepbvT8ZaPgrH24rgXpZzF0/6Hh3ZEkwg+0AES/Osd196VZmYoEFtw==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.20.3
-      caniuse-lite: 1.0.30001332
-      fraction.js: 4.2.0
-      normalize-range: 0.1.2
-      picocolors: 1.0.0
-      postcss: 8.4.13
-      postcss-value-parser: 4.2.0
-    dev: true
-
   /autoprefixer/10.4.7_postcss@8.4.13:
     resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2181,10 +2154,6 @@ packages:
       caniuse-lite: 1.0.30001335
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
-    dev: true
-
-  /caniuse-lite/1.0.30001332:
-    resolution: {integrity: sha512-10T30NYOEQtN6C11YGg411yebhvpnC6Z102+B95eAsN0oB6KUs01ivE8u+G6FMIRtIrVlYXhL+LUwQ3/hXwDWw==}
     dev: true
 
   /caniuse-lite/1.0.30001335:
@@ -5802,13 +5771,13 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-custom-properties/12.1.7_postcss@8.4.12:
+  /postcss-custom-properties/12.1.7_postcss@8.4.13:
     resolution: {integrity: sha512-N/hYP5gSoFhaqxi2DPCmvto/ZcRDVjE3T1LiAMzc/bg53hvhcHOLpXOHb526LzBBp5ZlAUhkuot/bfpmpgStJg==}
     engines: {node: ^12 || ^14 || >=16}
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      postcss: 8.4.12
+      postcss: 8.4.13
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -6040,13 +6009,13 @@ packages:
       postcss-selector-parser: 6.0.10
     dev: true
 
-  /postcss-nesting/10.1.4_postcss@8.4.12:
+  /postcss-nesting/10.1.4_postcss@8.4.13:
     resolution: {integrity: sha512-2ixdQ59ik/Gt1+oPHiI1kHdwEI8lLKEmui9B1nl6163ANLC+GewQn7fXMxJF2JSb4i2MKL96GU8fIiQztK4TTA==}
     engines: {node: ^12 || ^14 || >=16}
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      postcss: 8.4.12
+      postcss: 8.4.13
       postcss-selector-parser: 6.0.10
     dev: true
 
