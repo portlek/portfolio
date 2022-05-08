@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
       },
     },
+    backgroundImage: {
+      'bg-top': 'url(\'https://mayberks.me/wp-content/uploads/2020/09/bg.jpg\')',
+    },
     screens: {
       'max-sm': { max: '639px' },
       'max-md': { max: '767px' },

@@ -6,7 +6,7 @@
     overflow-visible
     relative
     text-[#8c8c8e]
-    lg:p-[15px] p-[0px]
+    lg:p-[15px] p-0
     lg:before:portfolio-topleft
     lg:after:portfolio-topleft
     lg:after:top-auto
@@ -21,15 +21,15 @@
       mx-auto
       bg-[#1e1e28]
       bg-cover
-      w-[100%]
+      w-full
       relative
-      max-lg:rounded-[0]
+      max-lg:rounded-none
       portfolio-default-shadow"
     >
       <div
         class="
         relative
-        max-lg:w-100%
+        max-lg:w-full
         flex
         flex-nowrap
         lg:before:portfolio-topright"
@@ -75,17 +75,23 @@
         >
           <div
             class="
-              bg-[#303040]/[0.88]
-              absolute
-              z-[9]
-              left-[0]
-              w-[100%]
-              h-[100%]
-              pointer-events-none
-              opacity-0
-              transition-all duration-[0.55s] delay-[0s]
-            "
-          />
+            bg-bg-top
+            overflow-hidden
+            absolute
+            w-full
+            top-[0]
+            bg-center
+            h-[400px]
+            bg-cover"
+          >
+            <div
+              class="
+              relative
+              h-full
+              w-full
+              portfolio-top-bg-gradient"
+            />
+          </div>
         </div>
       </div>
     </div>
