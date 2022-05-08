@@ -34,7 +34,7 @@
         flex-nowrap
         lg:before:portfolio-topright"
       >
-        <!-- Info bar-->
+        <!-- Info bar -->
         <div
           class="
           max-lg:h-[100vh!important]
