@@ -1,16 +1,16 @@
 <template>
   <div
     class="
-    w-auto
-    h-auto
-    overflow-visible
-    relative
-    text-[#8c8c8e]
     lg:p-[15px] p-0
     lg:before:portfolio-topleft
     lg:after:portfolio-topleft
     lg:after:top-auto
-    lg:after:bottom-0"
+    lg:after:bottom-0
+    w-auto
+    h-auto
+    overflow-visible
+    relative
+    text-[#8c8c8e]"
   >
     <div
       class="
@@ -36,14 +36,14 @@
       >
         <div
           class="
-          max-lg:h-[100vh!important]
+          lg:h-[calc(100vh-30px)]
+          lg:left-[0]
+          h-[100vh!important]
+          left-[-290px]
           fixed
-          max-lg:left-[-290px]
-          max-lg:w-[290px]
           bg-[#20202a]
           w-[290px]
           min-w-[290px]
-          h-[calc(100vh-30px)]
           z-999
           portfolio-default-shadow
           transition-all duration-[0.55s] delay-[0s]
@@ -60,36 +60,19 @@
         </div>
         <div
           class="
-          max-lg:pl-0
-          max-lg:w-auto
-          pl-[290px]
+          lg:pl-[290px]
+          lg:w-auto
+          pl-0
+          w-[100vw]
           h-auto
           relative
           max-lg:pr-0
           max-lg:pt-[70px]
           overflow-hidden
-          w-[100vw]
           transition-all duration-[0.55s] delay-[0s]"
         >
-          <div
-            class="
-            bg-bg-top
-            overflow-hidden
-            absolute
-            w-full
-            top-[0]
-            bg-center
-            h-[400px]
-            bg-cover"
-          >
-            <div
-              class="
-              relative
-              h-full
-              w-full
-              portfolio-top-bg-gradient"
-            />
-          </div>
+          <ContentTop />
+          <ContentBottom />
         </div>
       </div>
     </div>
