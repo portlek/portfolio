@@ -73,7 +73,19 @@
           w-[100vw]
           transition-all duration-[0.55s] delay-[0s]"
         >
-          Content
+          <div
+            class="
+              bg-[#303040]/[0.88]
+              absolute
+              z-[9]
+              left-[0]
+              w-[100%]
+              h-[100%]
+              pointer-events-none
+              opacity-0
+              transition-all duration-[0.55s] delay-[0s]
+            "
+          />
         </div>
       </div>
     </div>
