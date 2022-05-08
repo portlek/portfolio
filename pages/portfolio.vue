@@ -34,7 +34,6 @@
         flex-nowrap
         lg:before:portfolio-topright"
       >
-        <!-- Info bar -->
         <div
           class="
           max-lg:h-[100vh!important]
@@ -59,7 +58,6 @@
             <SideBottomBar />
           </div>
         </div>
-        <!-- Content -->
         <div
           class="
           max-lg:pl-0
