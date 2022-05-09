@@ -13,7 +13,7 @@
     "@mapbox/node-pre-gyp": "1.0.9",
     "@nuxtjs/color-mode": "3.0.2",
     "@pinia/nuxt": "0.1.9",
-    "@unocss/nuxt": "0.33.1",
+    "@unocss/nuxt": "0.33.2",
     "@vueuse/nuxt": "8.4.2",
     "eslint": "8.15.0",
     "nuxt": "3.0.0-rc.2",
