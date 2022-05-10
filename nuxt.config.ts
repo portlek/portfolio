@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from 'nuxt'
-import {} from '@nuxtjs/tailwindcss'
 
 export default defineNuxtConfig({
   components: true,
@@ -7,7 +6,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss',
     '@unocss/nuxt',
   ],
   experimental: {
@@ -19,15 +17,8 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  tailwindcss: {
-    jit: true,
-    cssPath: '~/styles/tailwind.css',
-    viewer: false,
-  },
   unocss: {
-    icons: {
-      scale: 1.2,
-    },
+    preflight: true,
   },
   css: [
     '~/styles/main.css',

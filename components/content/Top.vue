@@ -1,0 +1,21 @@
+<template>
+  <div
+    class="
+    bg-top
+    overflow-hidden
+    absolute
+    w-full
+    top-[0]
+    bg-center
+    h-[400px]
+    bg-cover"
+  >
+    <div
+      class="
+      relative
+      h-full
+      w-full
+      portfolio-top-bg-gradient"
+    />
+  </div>
+</template>

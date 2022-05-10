@@ -1,16 +1,16 @@
 <template>
   <div
     class="
+    lg:p-[15px] p-0
+    lg:before:portfolio-topleft
+    lg:after:portfolio-topleft
+    lg:after:top-auto
+    lg:after:bottom-0
     w-auto
     h-auto
     overflow-visible
     relative
-    text-[#8c8c8e]
-    lg:p-[15px] p-[0px]
-    lg:before:portfolio-topleft
-    lg:after:portfolio-topleft
-    lg:after:top-auto
-    lg:after:bottom-0"
+    text-[#8c8c8e]"
   >
     <div
       class="
@@ -21,30 +21,29 @@
       mx-auto
       bg-[#1e1e28]
       bg-cover
-      w-[100%]
+      w-full
       relative
-      max-lg:rounded-[0]
+      max-lg:rounded-none
       portfolio-default-shadow"
     >
       <div
         class="
         relative
-        max-lg:w-100%
+        max-lg:w-full
         flex
         flex-nowrap
         lg:before:portfolio-topright"
       >
-        <!-- Info bar -->
         <div
           class="
-          max-lg:h-[100vh!important]
+          lg:h-[calc(100vh-30px)]
+          lg:left-[0]
+          h-[100vh!important]
+          left-[-290px]
           fixed
-          max-lg:left-[-290px]
-          max-lg:w-[290px]
           bg-[#20202a]
           w-[290px]
           min-w-[290px]
-          h-[calc(100vh-30px)]
           z-999
           portfolio-default-shadow
           transition-all duration-[0.55s] delay-[0s]
@@ -59,21 +58,21 @@
             <SideBottomBar />
           </div>
         </div>
-        <!-- Content -->
         <div
           class="
-          max-lg:pl-0
-          max-lg:w-auto
-          pl-[290px]
+          lg:pl-[290px]
+          lg:w-auto
+          pl-0
+          w-[100vw]
           h-auto
           relative
           max-lg:pr-0
           max-lg:pt-[70px]
           overflow-hidden
-          w-[100vw]
           transition-all duration-[0.55s] delay-[0s]"
         >
-          Content
+          <ContentTop />
+          <ContentBottom />
         </div>
       </div>
     </div>
