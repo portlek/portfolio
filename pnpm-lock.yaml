@@ -5,7 +5,7 @@ specifiers:
   '@iconify-json/carbon': 1.1.4
   '@iconify-json/twemoji': 1.1.4
   '@mapbox/node-pre-gyp': 1.0.9
-  '@nuxtjs/color-mode': 3.0.2
+  '@nuxtjs/color-mode': 3.0.3
   '@nuxtjs/tailwindcss': 5.0.4
   '@pinia/nuxt': 0.1.9
   '@unocss/nuxt': 0.33.2
@@ -24,7 +24,7 @@ devDependencies:
   '@iconify-json/carbon': 1.1.4
   '@iconify-json/twemoji': 1.1.4
   '@mapbox/node-pre-gyp': 1.0.9
-  '@nuxtjs/color-mode': 3.0.2_vite@2.9.8+webpack@5.72.0
+  '@nuxtjs/color-mode': 3.0.3_vite@2.9.8+webpack@5.72.0
   '@nuxtjs/tailwindcss': 5.0.4_vite@2.9.8+webpack@5.72.0
   '@pinia/nuxt': 0.1.9_pinia@2.0.14+vue@3.2.33
   '@unocss/nuxt': 0.33.2_vite@2.9.8+webpack@5.72.0
@@ -931,8 +931,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxtjs/color-mode/3.0.2_vite@2.9.8+webpack@5.72.0:
-    resolution: {integrity: sha512-JgppnxOsVe2T/UGj0xjok/8TKDI27bRuhNh+Qrvr0FsS90Mty2acZLLN0lkrOTV0WLrpnTgN7mZCrgCWmhvziA==}
+  /@nuxtjs/color-mode/3.0.3_vite@2.9.8+webpack@5.72.0:
+    resolution: {integrity: sha512-FQVyLgRQ4C4C5NmTBrFRNm+LNjgT4cPFqyqfoRxD6hfVZhLxWJfKPGUaT8H/BCeBzkZZ29583MG9GqyDX7rnNg==}
     dependencies:
       '@nuxt/kit': /@nuxt/kit-edge/3.0.0-rc.3-27536227.36512d0_vite@2.9.8+webpack@5.72.0
       defu: 5.0.1
