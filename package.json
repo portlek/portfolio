@@ -6,6 +6,7 @@
     "start": "node .output/server/index.mjs",
     "lint": "eslint ."
   },
+  "packageManager": "pnpm@7.0.1",
   "devDependencies": {
     "@antfu/eslint-config": "0.23.0",
     "@iconify-json/carbon": "1.1.4",
