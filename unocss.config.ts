@@ -13,12 +13,12 @@ import {
 export default defineConfig({
   shortcuts: [
     [
-      'portfolio-topright',
-      'content-none fixed right-[0] top-[0] w-[15px] h-full bg-[#191923] z-[9999]',
+      'portfolio-topleft',
+      'content-none fixed left-[0] top-[0] w-[100%] h-[15px] bg-[#191923] z-[9999]',
     ],
     [
-      'portfolio-topleft',
-      'content-none fixed left-[0] top-[0] w-[15px] h-full bg-[#191923] z-[9999]',
+      'portfolio-topright',
+      'content-none fixed right-[0] top-[0] w-[15px] h-full bg-[#191923] z-[9999]',
     ],
   ],
   presets: [

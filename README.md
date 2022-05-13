@@ -1,3 +1,3 @@
 # Portfolio
 
-[Preview](https://portlek.netlify.app/portfolio)
+[Preview](https://portlek.netlify.app/)

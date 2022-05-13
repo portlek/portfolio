@@ -1,5 +1,5 @@
 <template>
   <div>
-    <DarkToggle />
+    Hasan Demirtaş
   </div>
 </template>
