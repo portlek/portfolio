@@ -15,7 +15,7 @@
     "@nuxtjs/color-mode": "3.0.3",
     "@nuxtjs/tailwindcss": "5.0.4",
     "@pinia/nuxt": "0.1.9",
-    "@unocss/nuxt": "0.33.4",
+    "@unocss/nuxt": "0.33.5",
     "@vueuse/nuxt": "8.4.2",
     "eslint": "8.15.0",
     "nuxt": "3.0.0-rc.3",
