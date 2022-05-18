@@ -4,8 +4,8 @@
     alt="avatar"
     class="
     absolute
-    w-50
-    h-50
+    w-100%
+    h-100%
     object-cover
     rounded-50%
     z-0
