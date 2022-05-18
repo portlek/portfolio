@@ -1,5 +1,5 @@
 <template>
   <div>
-    Hasan Demirtaş
+    <Avatar />
   </div>
 </template>

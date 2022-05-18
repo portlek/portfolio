@@ -1,0 +1,15 @@
+<template>
+  <img
+    src="~/assets/avatar.png"
+    alt="avatar"
+    class="
+    absolute
+    w-50
+    h-50
+    object-cover
+    rounded-50%
+    z-0
+    align-middle
+    border-style-none"
+  >
+</template>
