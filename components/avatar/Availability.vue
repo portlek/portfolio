@@ -1,0 +1,15 @@
+<template>
+  <div
+    class="
+    z-2
+    before:content-none
+    before:absolute
+    before:bottom--1px
+    before:right-1px
+    before:bg-#fafafc
+    before:h-23px
+    before:w-23px
+    before:rounded-50%
+    before:animate-ping"
+  />
+</template>
