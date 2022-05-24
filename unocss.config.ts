@@ -12,14 +12,6 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    [
-      'portfolio-topleft',
-      'content-none fixed left-[0] top-[0] w-[100%] h-[15px] bg-[#191923] z-[9999]',
-    ],
-    [
-      'portfolio-topright',
-      'content-none fixed right-[0] top-[0] w-[15px] h-full bg-[#191923] z-[9999]',
-    ],
   ],
   presets: [
     presetUno(),
@@ -42,6 +34,14 @@ export default defineConfig({
     transformerVariantGroup(),
   ],
   theme: {
+    extend: {
+      animation: {
+        puls: 'puls 1s infinite',
+      },
+    },
+    boxShadow: {
+      availability: '0 1px 4px 0 rgb(15 15 20 / 10%)',
+    },
     breakpoints: {
       'max-sm': { max: '639px' },
       'max-md': { max: '767px' },
@@ -91,25 +91,6 @@ export default defineConfig({
     }],
     ['font-variant-normal', {
       'font-variant': 'normal',
-    }],
-    ['portfolio-default-shadow', {
-      'box-shadow': '0 3px 8px 0 rgb(15 15 20 / 20%)',
-    }],
-    ['portfolio-custom-shadow', {
-      'box-shadow': '0 1px 4px 0 rgb(15 15 20 / 10%)',
-    }],
-    ['portfolio-avatar-gradient', {
-      background: 'linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%)',
-    }],
-    ['portfolio-bottom-gradient', {
-      background: 'linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%)',
-    }],
-    ['portfolio-top-bg-gradient', {
-      'background-image': 'linear-gradient(180deg, rgba(30, 30, 40, 0.93) 0%, rgba(30, 30, 40, 0.96) 70%, rgba(30, 30, 40, 0.99) 80%, #1e1e28 100%)',
-    }],
-    ['portfolio-side-bar-active', {
-      '-webkit-transform': 'translateX(290px)',
-      'transform': 'translateX(290px)',
     }],
   ],
 })
