@@ -36,7 +36,6 @@ export default defineConfig({
   theme: {
     extend: {
       animation: {
-        puls: 'puls 1s infinite',
       },
     },
     boxShadow: {
