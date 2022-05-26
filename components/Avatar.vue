@@ -1,8 +1,6 @@
 <script setup>
-import console from 'console'
-
-const { data: availability } = await useFetch('/api/availability')
-const info = ref(availability)
+const { data } = await useFetch('/api/data')
+const info = ref(data)
 </script>
 
 <template>
