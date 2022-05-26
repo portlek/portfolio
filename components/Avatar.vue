@@ -3,7 +3,6 @@ import console from 'console'
 
 const { data: availability } = await useFetch('/api/availability')
 const info = ref(availability)
-console.log('Test')
 </script>
 
 <template>
