@@ -1,9 +1,15 @@
 <script setup>
+import Swal from 'sweetalert2'
 const { data } = await useFetch('/api/data')
 const info = ref(data)
 
 function copy() {
   navigator.clipboard.writeText(info.value.discordIdentifier)
+  Swal.fire(
+    'Good job!',
+    'You clicked the button!',
+    'success',
+  )
 }
 </script>
 

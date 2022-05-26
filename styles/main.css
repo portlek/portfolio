@@ -1,12 +1,4 @@
-*, ::after, ::before {
-  box-sizing: border-box;
-}
-
 body {
   background: #191923;
   font-family: "Poppins", sans-serif;
-}
-
-div {
-  display: block;
 }
