@@ -1,6 +1,9 @@
 <script setup>
+import console from 'console'
+
 const { data: availability } = await useFetch('/api/availability')
 const info = ref(availability)
+console.log('Test')
 </script>
 
 <template>
@@ -33,7 +36,7 @@ const info = ref(availability)
       before:animate-[puls_1s_infinite]"
     >
       <div
-        state="I'm available for commissions"
+        :state="info.availability === 'available' ? 'I\'m available for commissions' : 'I\'m not available'"
         :class="info.availability === 'available' ? 'bg-#00bb00' : 'bg-#ffc107'"
         class="
         absolute
