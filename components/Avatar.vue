@@ -1,3 +1,8 @@
+<script setup>
+const { data: availability } = await useFetch('/api/availability')
+const info = ref(availability)
+</script>
+
 <template>
   <div
     class="
@@ -29,13 +34,13 @@
     >
       <div
         state="I'm available for commissions"
+        :class="info.availability === 'available' ? 'bg-#00bb00' : 'bg-#ffc107'"
         class="
         absolute
         bottom-3px
         right-5px
         h-15px
         w-15px
-        bg-#ffc107
         rounded-50%
         z-0
         transition-all
