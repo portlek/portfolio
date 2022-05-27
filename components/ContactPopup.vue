@@ -1,5 +1,5 @@
 <template>
   <div>
-    <ContactViaDiscord />
+    Discord User#Tag Copied
   </div>
 </template>

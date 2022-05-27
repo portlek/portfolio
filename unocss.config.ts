@@ -55,6 +55,9 @@ export default defineConfig({
     },
   },
   rules: [
+    ['align-self-center', {
+      'align-self': 'center',
+    }],
     ['bg-top', {
       'background-image': 'url(\'https://mayberks.me/wp-content/uploads/2020/09/bg.jpg\')',
     }],
@@ -75,6 +78,9 @@ export default defineConfig({
     }],
     ['webkit-font-antialiased', {
       '-webkit-font-smoothing': 'antialiased',
+    }],
+    ['webkit-box-direction-normal', {
+      '-webkit-box-direction': 'normal',
     }],
     ['transform-none-important', {
       '-webkit-transform': 'none !important',
