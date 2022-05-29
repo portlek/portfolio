@@ -13,7 +13,7 @@
     "@iconify-json/twemoji": "1.1.4",
     "@nuxtjs/color-mode": "3.0.3",
     "@pinia/nuxt": "0.1.9",
-    "@unocss/nuxt": "0.34.1",
+    "@unocss/nuxt": "0.35.2",
     "@vueuse/nuxt": "8.5.0",
     "eslint": "8.16.0",
     "nuxt": "3.0.0-rc.3",
