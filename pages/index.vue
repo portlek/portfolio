@@ -1,5 +1,5 @@
 <template>
   <div>
-    <ContactViaDiscord />
+    <CirclePercentage />
   </div>
 </template>

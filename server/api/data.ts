@@ -1,6 +1,6 @@
 export default defineEventHandler(() => {
   return {
-    availability: 'available',
+    availability: 'not available',
     discordIdentifier: 'portlek#5502',
   }
 })
