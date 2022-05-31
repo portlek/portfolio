@@ -1,5 +1,5 @@
 <template>
   <div>
-    <ContactViaDiscord />
+    <ContactMe />
   </div>
 </template>
