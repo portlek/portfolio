@@ -1,5 +1,5 @@
 <template>
   <div>
-    <CirclePercentage />
+    <ContactMe />
   </div>
 </template>
