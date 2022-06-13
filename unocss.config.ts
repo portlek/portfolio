@@ -15,13 +15,13 @@ export default defineConfig({
   shortcuts: [
   ],
   presets: [
-    presetUno,
-    presetAttributify,
+    presetUno(),
+    presetAttributify(),
     presetIcons({
       scale: 1.2,
     }),
-    presetWind,
-    presetTypography,
+    presetWind(),
+    presetTypography(),
     presetWebFonts({
       fonts: {
         sans: 'DM Sans',

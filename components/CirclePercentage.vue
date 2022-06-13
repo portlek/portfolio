@@ -16,11 +16,14 @@ const props = defineProps<{
     <div
       absolute
       h-50px
+      w-75px
       mb-15px
+      px-10px
       text-center
       top-0
+      right-0
+      left-0
       class="
-      w-100%
       text-#cacace"
     />
     <h6
