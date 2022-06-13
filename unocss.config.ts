@@ -9,18 +9,19 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import presetRemToPx from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
   shortcuts: [
   ],
   presets: [
-    presetUno(),
-    presetAttributify(),
+    presetUno,
+    presetAttributify,
     presetIcons({
       scale: 1.2,
     }),
-    presetWind(),
-    presetTypography(),
+    presetWind,
+    presetTypography,
     presetWebFonts({
       fonts: {
         sans: 'DM Sans',
@@ -28,6 +29,7 @@ export default defineConfig({
         mono: 'DM Mono',
       },
     }),
+    presetRemToPx(),
   ],
   transformers: [
     transformerDirectives(),

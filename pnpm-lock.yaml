@@ -7,6 +7,7 @@ specifiers:
   '@nuxtjs/color-mode': 3.1.4
   '@pinia/nuxt': 0.1.9
   '@unocss/nuxt': 0.39.0
+  '@unocss/preset-rem-to-px': ^0.39.0
   '@vueuse/nuxt': 8.6.0
   eslint: 8.17.0
   nuxt: 3.0.0-rc.3
@@ -24,6 +25,7 @@ devDependencies:
   '@nuxtjs/color-mode': 3.1.4_vite@2.9.12+webpack@5.73.0
   '@pinia/nuxt': 0.1.9_pinia@2.0.14+vue@3.2.37
   '@unocss/nuxt': 0.39.0_vite@2.9.12+webpack@5.73.0
+  '@unocss/preset-rem-to-px': 0.39.0
   '@vueuse/nuxt': 8.6.0_jldfnizaobxnhpuvkzs4jcgpqe
   eslint: 8.17.0
   nuxt: 3.0.0-rc.3_vite@2.9.12+webpack@5.73.0
@@ -1227,6 +1229,12 @@ packages:
 
   /@unocss/preset-mini/0.39.0:
     resolution: {integrity: sha512-EPZ/YP3l605BU0DP4/NRHD+VMjuHvVPjVovgq9TNSIo6Y1s/qDfCHkxfuAIzCuqDneEx3QxR9RpmevD1Jm+plQ==}
+    dependencies:
+      '@unocss/core': 0.39.0
+    dev: true
+
+  /@unocss/preset-rem-to-px/0.39.0:
+    resolution: {integrity: sha512-MbWJCLJnH+DQaChRXc7Pw3T2l7m5WRESBI7BXPulPSxOxU9I6LMqY7s5SC+z2ssKXkIlXQSEByzfPcRGMyDW+w==}
     dependencies:
       '@unocss/core': 0.39.0
     dev: true
