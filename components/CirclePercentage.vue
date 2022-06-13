@@ -14,18 +14,25 @@ const props = defineProps<{
     text-#8c8c83"
   >
     <div
-      absolute
+      inline-flex
+      items-center
       h-50px
       w-75px
       mb-15px
-      px-10px
-      text-center
-      top-0
-      right-0
       left-0
+      right-0
+      top-0
       class="
-      text-#cacace"
-    />
+      px-12.5px"
+    >
+      <span
+        absolute
+        class="
+        text-#cacace"
+      >
+        100%
+      </span>
+    </div>
     <h6
       absolute
       h-15px
