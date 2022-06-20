@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.2.1",
+  "packageManager": "pnpm@7.3.0",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
@@ -13,14 +13,14 @@
     "@iconify-json/twemoji": "1.1.4",
     "@nuxtjs/color-mode": "3.1.4",
     "@pinia/nuxt": "0.1.9",
-    "@unocss/nuxt": "0.39.0",
     "@unocss/preset-rem-to-px": "^0.39.0",
-    "@vueuse/nuxt": "8.6.0",
-    "eslint": "8.17.0",
+    "@unocss/nuxt": "0.39.3",
+    "@vueuse/nuxt": "8.7.4",
+    "eslint": "8.18.0",
     "nuxt": "3.0.0-rc.4",
     "pinia": "2.0.14",
-    "sweetalert2": "11.4.17",
-    "typescript": "4.7.3",
+    "sweetalert2": "11.4.18",
+    "typescript": "4.7.4",
     "vite": "2.9.12",
     "vue": "3.2.37",
     "webpack": "5.73.0"
