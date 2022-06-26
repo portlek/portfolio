@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': 0.25.2
   '@iconify-json/carbon': 1.1.6
-  '@iconify-json/twemoji': 1.1.4
+  '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.4
   '@pinia/nuxt': 0.1.9
   '@unocss/nuxt': 0.41.0
@@ -20,7 +20,7 @@ specifiers:
 devDependencies:
   '@antfu/eslint-config': 0.25.2_b5e7v2qnwxfo6hmiq56u52mz3e
   '@iconify-json/carbon': 1.1.6
-  '@iconify-json/twemoji': 1.1.4
+  '@iconify-json/twemoji': 1.1.5
   '@nuxtjs/color-mode': 3.1.4_vite@2.9.12+webpack@5.73.0
   '@pinia/nuxt': 0.1.9_pinia@2.0.14+vue@3.2.37
   '@unocss/nuxt': 0.41.0_vite@2.9.12+webpack@5.73.0
@@ -492,8 +492,8 @@ packages:
       '@iconify/types': 1.1.0
     dev: true
 
-  /@iconify-json/twemoji/1.1.4:
-    resolution: {integrity: sha512-8kkpuloIx3oWM8CemCq4kRpocI4DTBMqitb333EYjtUdAxQTyzx9ftpVrIJxJ+0p9KGXuK0M8ikWDlYkxCPszw==}
+  /@iconify-json/twemoji/1.1.5:
+    resolution: {integrity: sha512-1sTyrLUrMF7QhXS8a9XOd2ySgxgESQTRvhtN471QFdqIaXMi7oWB5UUFh0z984s/al4Iclet+O8BZfuhM9t7lg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
